@@ -2,11 +2,12 @@
 
 ## Repository
 There are five files:
+
 1. _run_analysis.R_: R code;
 2. _CodeBook.md_: explained steps of the work
 3. _README.md_: a brief overview on R code;
 4. _README_Original.txt_: original dataset README file;
-5. _Overall_Mean_Data_: output of the R code;
+5. _Overall_Mean_Data.txt_: output of the R code;
 
 ## R Scripts
 Only one script has been writed for the work: **_run_analysis.R_**.
@@ -33,6 +34,7 @@ A list of the variables in the script:
 
 ## How The Script Works
 Briefly:
+
 1. Store all the data;
 2. Chose and rename the features;
 3. Merge data with features;
