@@ -48,7 +48,7 @@ rownames(overall_data) <- NULL
 
 # Create a new tidy dataset about features means
 overall_mean_data <- aggregate(.~Activity+Subject,data=overall_data,FUN=mean)
-overall_mean_data = overall_mean_data[,c(2,1,3:ncol(overall_mean_data))]
+overall_mean_data <- overall_mean_data[,c(2,1,3:ncol(overall_mean_data))]
 
 # Save tidy dataset in a tab delimitated file
 write.table(overall_mean_data,file="Overall_Mean_Data.txt",sep="\t")
