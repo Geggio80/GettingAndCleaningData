@@ -24,7 +24,7 @@ A list of the variables in the script:
 * **_activities_**: match beetween identification numbers and names;
 * **_features_eff_**: chosen features;
 * **_index_feat, names_feat_**: features names and indices;
-* **_train_data_, test_data_**: merging of data with features;
+* **_train_data, test_data_**: merging of data with features;
 * **_overall_data_**: pre-final dataset;
 * **_overall_mean_data_**: final dataset with mean values;
 
@@ -43,4 +43,4 @@ Briefly:
 5. Extract a new dataset;
 6. Write the new dataset on a file;
 
-(for further information, see [CodeBook.md](https://github.com/Geggio80/GettingAndCleaningData/blob/master/CodeBook.md) or other files in the repository)
+(for further information, see [CodeBook.md](https://github.com/Geggio80/GettingAndCleaningData/blob/master/CodeBook.md) or another file in the repository)
