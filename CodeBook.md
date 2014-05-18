@@ -40,4 +40,4 @@ In order to complete the assigned project, it will be explained every step compu
 
 
 ## d. The Final Tidy Dataset
-It has 180 observations x 68 variables: every observation is ordered at first for subject, then for activity about columns 1,2. Others 66 columns represent mean values over the original catched features and they keep features names on which mean has been performed.
+It has 180 observations x 68 variables. Every observation is ordered at first for subject, then for activity (columns 1 and 2). Others 66 columns represent mean values over the original catched features: they keep features names on which mean has been performed.

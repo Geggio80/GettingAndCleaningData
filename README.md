@@ -17,18 +17,19 @@ Only standard libraries from _R Studio_ Version 0.98.501 (_R_ Version 3.0.3 64 b
 
 ## Variables
 A list of the variables in the script:
-* train, test: original data;
-* activity_train, activity_test: related activities as identification number;
-* subject_train, subject_test: related subjects as identification number;
-* features: list of the experiment features
-* activities: match beetween identification numbers and names;
-* features_eff = chosen features;
-* index_feat, names_feat: features names and indices;
-* train_data, test_data: merging of data with features;
-* overall_data: pre-final dataset;
-* overall_mean_data: final dataset;
+* _train, test_: original data;
+* _activity_train, activity_test_: related activities as identification number;
+* _subject_train, subject_test_: related subjects as identification number;
+* _features_: list of the experiment features
+* _activities_: match beetween identification numbers and names;
+* _features_eff_: chosen features;
+* _index_feat_, names_feat: features names and indices;
+* _train_data_, test_data: merging of data with features;
+* _overall_data_: pre-final dataset;
+* _overall_mean_data_: final dataset with mean values;
 
 ## Input and Output
+
 **Input**: various .txt file previously downloaded;
 **Output**: tidy dataset **_Overall_Mean_Data.txt_**;
 
