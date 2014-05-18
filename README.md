@@ -1,6 +1,6 @@
-# AN OVERVIEW ON THE R CODE
+## AN OVERVIEW ON THE R CODE
 
-## Repository
+### Repository
 There are five files:
 
 1. _run_analysis.R_: R code;
@@ -9,31 +9,31 @@ There are five files:
 4. _README_Original.txt_: original dataset README file;
 5. _Overall_Mean_Data.txt_: output of the R code;
 
-## R Scripts
+### R Scripts
 Only one script has been writed for the work: **_run_analysis.R_**.
 
-## Libraries
+### Libraries
 Only standard libraries from _R Studio_ Version 0.98.501 (_R_ Version 3.0.3 64 bit) have been used.
 
-## Variables
+### Variables
 A list of the variables in the script:
-* _train, test_: original data;
-* _activity_train, activity_test_: related activities as identification number;
-* _subject_train, subject_test_: related subjects as identification number;
-* _features_: list of the experiment features
-* _activities_: match beetween identification numbers and names;
-* _features_eff_: chosen features;
-* _index_feat_, names_feat: features names and indices;
-* _train_data_, test_data: merging of data with features;
-* _overall_data_: pre-final dataset;
-* _overall_mean_data_: final dataset with mean values;
+* **_train, test_**: original data;
+* **_activity_train, activity_test_**: related activities as identification number;
+* **_subject_train, subject_test_**: related subjects as identification number;
+* **_features_**: list of the experiment features
+* **_activities_**: match beetween identification numbers and names;
+* **_features_eff_**: chosen features;
+* **_index_feat, names_feat_**: features names and indices;
+* **_train_data_, test_data_**: merging of data with features;
+* **_overall_data_**: pre-final dataset;
+* **_overall_mean_data_**: final dataset with mean values;
 
-## Input and Output
+### Input and Output
 
 **Input**: various .txt file previously downloaded;
 **Output**: tidy dataset **_Overall_Mean_Data.txt_**;
 
-## How The Script Works
+### How The Script Works
 Briefly:
 
 1. Store all the data;

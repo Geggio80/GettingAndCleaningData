@@ -1,6 +1,7 @@
-# Getting and Cleaning Data Course Project: collect, work with, and clean a data set.
+## Getting and Cleaning Data Course Project: 
+## collect, work with, and clean a data set.
 
-## a. The Original Dataset
+### a. The Original Dataset
 The work name is "_Human Activity Recognition Using Smartphones Dataset Version 1.0_" performed by Reyes-Ortiz J.L., Anguita D., Ghio A., Oneto L. in **Smartlab - Non Linear Complex Systems Laboratory** (Genova, Italy). You can go to the [link](www.smartlab.ws) or download it from [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Summarizing the experiment:
 
 * 30 volunteers within an age bracket of 19-48 years;
@@ -9,7 +10,7 @@ The work name is "_Human Activity Recognition Using Smartphones Dataset Version 
 * 70% of volunteers for the training data, 30% for the test data.
 
 
-## b. The Data
+### b. The Data
 There are two principal datasets, **train** and **test**, that have the same features:
 
 * triaxial acceleration from the accelerometer and the estimated body acceleration;
@@ -21,7 +22,7 @@ There are two principal datasets, **train** and **test**, that have the same fea
 For further information, download the data and read original README.txt or contact _activityrecognition@smartlab.ws_. If you are lazy, there's a renamed version of the original file, README_Original.txt, inside the public [repository](https://github.com/Geggio80/GettingAndCleaningData).
 
 
-## c. Work On Data
+### c. Work On Data
 In order to complete the assigned project, it will be explained every step computed in R environment with RStudio in the **run_analysis.R**:
 
 1. After (external) dowloading the data and putting them in the right workspace, it has been used **_read.table_** to read and load them (data,activities,subjects and features);
@@ -39,5 +40,5 @@ In order to complete the assigned project, it will be explained every step compu
 7. the final tidy dataset has been stored in a tab delimited file "Overall_Mean_Data.txt" with **_write.table_**.
 
 
-## d. The Final Tidy Dataset
+### d. The Final Tidy Dataset
 It has 180 observations x 68 variables. Every observation is ordered at first for subject, then for activity (columns 1 and 2). Others 66 columns represent mean values over the original catched features: they keep features names on which mean has been performed.
