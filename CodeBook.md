@@ -33,7 +33,7 @@ In order to complete the assigned project, it will be explained every step compu
 
 4. Chosen data and cleaned up features have been merged together with **_rbind_** and **_cbind_** functions;
 
-5. New dataset has been order for subjects and activities with **_order_** and activities numbers have been replaced with their names using **_within_** (casting them as factor);
+5. New dataset has been ordered for subjects and activities with **_order_** and activities numbers have been replaced with their names using **_within_** (casting them as factors);
 
 6. **_aggregate_** function has been used for obtaining mean values over all the data, for subject and for activity, in order to obtain the final tidy dataset;
 

@@ -31,6 +31,7 @@ A list of the variables in the script:
 ### Input and Output
 
 **Input**: various .txt file previously downloaded;
+
 **Output**: tidy dataset **_Overall_Mean_Data.txt_**;
 
 ### How The Script Works

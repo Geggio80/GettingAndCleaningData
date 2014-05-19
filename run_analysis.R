@@ -17,7 +17,7 @@ activity_test <- read.table("test/y_test.txt")
 subject_train <- read.table("train/subject_train.txt")
 subject_test <- read.table("test/subject_test.txt")
 
-# d) Features and Activities
+# d) Features and Activities Labels
 features <- read.table("features.txt")
 activities <- read.table("activity_labels.txt")
 
