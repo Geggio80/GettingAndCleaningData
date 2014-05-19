@@ -38,7 +38,7 @@ A list of the variables in the script:
 Briefly:
 
 1. Store all the data;
-2. Chose and rename the features;
+2. Choose and rename the features;
 3. Merge data with features;
 4. Order the data and label the activities;
 5. Extract a new dataset;
