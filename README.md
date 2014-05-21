@@ -1,13 +1,14 @@
 ## AN OVERVIEW ON THE R CODE
 
 ### Repository
-There are five files:
+There are six files:
 
 1. _run_analysis.R_: R code;
 2. _CodeBook.md_: explained steps of the work
 3. _README.md_: a brief overview on R code;
 4. _README_Original.txt_: original dataset README file;
 5. _Overall_Mean_Data.txt_: output of the R code;
+6. _Overall_Mean_Data2.txt_: molten output of the R code;
 
 ### R Scripts
 Only one script has been writed for the work: **_run_analysis.R_**.
@@ -32,7 +33,7 @@ A list of the variables in the script:
 
 **Input**: various .txt file previously downloaded;
 
-**Output**: tidy dataset **_Overall_Mean_Data.txt_**;
+**Output**: tidy datasets **_Overall_Mean_Data.txt_** and **_Overall_Mean_Data.txt_**;
 
 ### How The Script Works
 Briefly:
@@ -42,6 +43,7 @@ Briefly:
 3. Merge data with features;
 4. Order the data and label the activities;
 5. Extract a new dataset;
-6. Write the new dataset on a file;
+6. Create a molten version;
+7. Write new datasets on files;
 
 (for further information, see [CodeBook.md](https://github.com/Geggio80/GettingAndCleaningData/blob/master/CodeBook.md) or another file in the repository)
