@@ -37,7 +37,7 @@ In order to complete the assigned project, it will be explained every step compu
 
 6. **_aggregate_** function has been used for obtaining mean values over all the data, for subject and for activity, in order to obtain the final tidy dataset;
 
-7. It has been performed a molten version of the final tidy dataset;
+7. It has been performed a molten version of the final tidy dataset with **_melt_** function (from _reshape2_ package);
 
 8. the final tidy dataset has been stored in a tab delimited file "Overall_Mean_Data.txt" (or in a molten version "Overall_Mean_Data2.txt") with **_write.table_**.
 
