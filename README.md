@@ -28,6 +28,7 @@ A list of the variables in the script:
 * **_train_data, test_data_**: merging of data with features;
 * **_overall_data_**: pre-final dataset;
 * **_overall_mean_data_**: final dataset with mean values;
+* **_overall_mean_data2_**: molten final dataset with mean values;
 
 ### Input and Output
 
