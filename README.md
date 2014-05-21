@@ -14,7 +14,7 @@ There are six files:
 Only one script has been writed for the work: **_run_analysis.R_**.
 
 ### Libraries
-Only standard libraries from _R Studio_ Version 0.98.501 (_R_ Version 3.0.3 64 bit) have been used.
+Standard libraries from _R Studio_ Version 0.98.501 (_R_ Version 3.0.3 64 bit) have been used. Moreover, it has been loaded [_reshape2_](http://cran.r-project.org/web/packages/reshape2/index.html) package.
 
 ### Variables
 A list of the variables in the script:
