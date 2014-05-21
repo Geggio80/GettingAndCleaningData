@@ -37,8 +37,15 @@ In order to complete the assigned project, it will be explained every step compu
 
 6. **_aggregate_** function has been used for obtaining mean values over all the data, for subject and for activity, in order to obtain the final tidy dataset;
 
-7. the final tidy dataset has been stored in a tab delimited file "Overall_Mean_Data.txt" with **_write.table_**.
+7. It has been performed a molten version of the final tidy dataset;
+
+8. the final tidy dataset has been stored in a tab delimited file "Overall_Mean_Data.txt" (or in a molten version "Overall_Mean_Data2.txt") with **_write.table_**.
 
 
 ### d. The Final Tidy Dataset
+
+#### Tidy Normal Dataset
 It has 180 observations x 68 variables. Every observation is ordered at first for subject, then for activity (columns 1 and 2). Others 66 columns represent mean values over the original catched features: they keep features names on which mean has been performed.
+
+#### Tidy Molten Dataset
+It has 11880 observations x 4 variables. Every observation is ordered at first for subject, then for activity, at last for feature (columns 1,2 and 3). The 4th column represents mean values over the original catched features.

@@ -1,7 +1,8 @@
 # COLLECT, WORK AND CLEAN A DATASET
 
-# Clear global environment
+# Clear global environment and load libraries
 rm(list = ls())
+library(reshape2)
 
 # Read all useful separate data:
 
@@ -50,6 +51,11 @@ rownames(overall_data) <- NULL
 overall_mean_data <- aggregate(.~Activity+Subject,data=overall_data,FUN=mean)
 overall_mean_data <- overall_mean_data[,c(2,1,3:ncol(overall_mean_data))]
 
-# Save tidy dataset in a tab delimitated file
+# Create a molten version
+overall_mean_data2 <- melt(overall_mean_data,id.var=1:2)
+colnames(overall_mean_data2) = c("Subject","Activity","Feature","Mean")
+
+# Save tidy datasets in a tab delimitated file
 write.table(overall_mean_data,file="Overall_Mean_Data.txt",sep="\t")
+write.table(overall_mean_data2,file="Overall_Mean_Data2.txt",sep="\t")
 
